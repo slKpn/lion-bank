@@ -157,13 +157,13 @@ ul li{
 .offers__item:last-child{
     margin-right: 0px;
 }
-.card__item--theme--gray .offers__header:before{
+.card__item--theme--gray .card__header:before{
     background: #a7a7a7;
 }
-.card__item--theme--blue .offers__header:before{
+.card__item--theme--blue .card__header:before{
     background: #596483;
 }
-.card__item--theme--gold .offers__header:before{
+.card__item--theme--gold .card__header:before{
     background: #988657;
 }
 .card__header{
