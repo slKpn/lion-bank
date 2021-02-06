@@ -26,7 +26,7 @@ ul li{
 }
 .main-page-wrapper{
     background: url("../img/bg/lion-header1.jpg") center top no-repeat, url("../img/bg/bottom-pic1.jpg") right bottom 307px  no-repeat ;
- 
+    min-width: 1140px;
 }
 .container{
     width: 1140px;
@@ -133,7 +133,7 @@ ul li{
     box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
 }
 .offers{
-    margin-bottom: 127px;
+    margin-bottom: 105px;
 }
 .section__title{
     font-size: 36px;
@@ -143,33 +143,36 @@ ul li{
 
 .offers__item{
     color:#000;
+    border-radius:4px;
+    background: #FFFFFF;
+    margin-bottom: 22px;
+}
+.card{
     width: 362px;
     min-height: 403px;
     margin-right: 22px;
-    background: #FFFFFF;
-    border-radius:4px;
     display: inline-block;
 }
 .offers__item:last-child{
     margin-right: 0px;
 }
-.offers__item--theme--gray .offers__header:before{
+.card__item--theme--gray .offers__header:before{
     background: #a7a7a7;
 }
-.offers__item--theme--blue .offers__header:before{
+.card__item--theme--blue .offers__header:before{
     background: #596483;
 }
-.offers__item--theme--gold .offers__header:before{
+.card__item--theme--gold .offers__header:before{
     background: #988657;
 }
-.offers__header{
+.card__header{
     min-height: 144px;
     margin-bottom: 32px;
     position: relative;   
     overflow: hidden;
 
 }
-.offers__header:before{
+.card__header:before{
     content: "";
     display: block;
     width: 272px;
@@ -180,47 +183,47 @@ ul li{
     right: -93px;
     background: #a7a7a7;
 }
-.offers__pic{
+.card__pic{
     position: absolute;
     top:50%;
     left: 50%;
     margin-top: -34px;
     margin-left: -44px;
 }
-.offers__content{
+.card__content{
     padding: 0px 20px 25px 20px;
 
 }
-.offers__title{
+.card__title{
     font-size: 24px;
     font-weight:bold;  
     margin-bottom: 15px; 
 }
-.offers__features{
+.card__features{
     margin-bottom: 47px;
 }
-.offers__features-cell{
+.card__features-cell{
     display: inline-block;
     vertical-align: top;
   
     width: 159px;
     margin-right: 35px;
 }
-.offers__features-cell:last-child{
+.card__features-cell:last-child{
     margin-right: 0px;
 }
-.offers__value{
+.card__value{
     font-size: 36px;
     margin-bottom: 4px;
     width: 120px;
 }
-.offers__caption{
+.card__caption{
     color: #666666;
 }
-.offers_caption-width-lock{
+.card_caption-width-lock{
     max-width: 120px;
 }
-.offers__btn-wrapper{
+.card__btn-wrapper{
     text-align: center;
 }
 .news{
@@ -230,24 +233,29 @@ ul li{
     margin-bottom: 45px;
 }
 .news__item{
-    width: 557px;
-    display: inline-block;
-    vertical-align: top;
+    min-height: 114px;
+   
     border-radius: 4px;
     position: relative;
     overflow: hidden;
+   
+}
+.knowledge{
+    width: 557px;
+    display: inline-block;
+    vertical-align: top;
     margin-right: 20px;
 }
 .news__item:last-child{
     margin-right: 0;
 }
-.news__pic{
+.knowledge__pic{
     width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: .4;
 }
-.news__text{
+.knowledge__text{
     position: absolute;
     left: 0;
     right: 0;
@@ -255,21 +263,21 @@ ul li{
     padding: 15px 30px 15px;
     min-height: 165px;
 }
-.news__date{
+.knowledge__date{
     font-size: 14px;
-    line-height: 21px;
-    margin-bottom: 13px;
+  
+    margin-bottom: 15px;
  
 }
-.news__caption{
+.knowledge__caption{
     font-size: 24px;
     font-weight: bold;
-    line-height: 36px;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
+
  
 }
-.news__desc{
-    line-height: 28px;
+.knowledge__desc{
+  
 }
 .pagination{
    text-align: center;
@@ -316,9 +324,8 @@ ul li{
 }
 .abouts__desc{
     background: #202123;
-    padding: 70px 81px;
-    width: 785px;
-    min-height: 144px;
+    padding: 70px 163px 70px 81px;
+
     margin-left: -142px;
     margin-top: 97px;
 }
