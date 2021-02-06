@@ -152,6 +152,7 @@ ul li{
     min-height: 403px;
     margin-right: 22px;
     display: inline-block;
+    overflow: hidden;
 }
 .offers__item:last-child{
     margin-right: 0px;
