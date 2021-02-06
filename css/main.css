@@ -133,7 +133,7 @@ ul li{
     box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
 }
 .offers{
-    margin-bottom: 105px;
+    margin-bottom: 98px;
 }
 .section__title{
     font-size: 36px;
@@ -261,7 +261,7 @@ ul li{
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 15px 30px 15px;
+    padding: 17px 30px 15px;
     min-height: 165px;
 }
 .knowledge__date{
