@@ -1,0 +1,28 @@
+.footer{
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__col{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.footer__col--align--right{
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+    
+}
+.footer-container{
+    margin-top: auto;
+}
+.footer-container__border-line{
+    border-top: 1px solid #353538;
+    padding: 20px 0;
+ 
+}
+.footer--theme--dark{
+    background: #29282D; ;
+}

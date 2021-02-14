@@ -1,0 +1,23 @@
+.contacts{
+    font-style: normal;
+    text-align: right;
+  
+}
+.contacts__phone{
+    font-size: 26px;
+    margin-bottom: 4px;
+ 
+    line-height: 1.11em;
+}
+.contacts__dropdown-title{
+    font-size: 13px;
+    text-decoration: underline;
+    color: #D3A557;
+    line-height: 1.22;
+}
+.contacts__desc{
+    color: #9A9A9A;
+    font-size: 11px;
+    margin-bottom: 5px;
+    line-height: 1;
+}

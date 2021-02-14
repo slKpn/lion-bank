@@ -1,0 +1,16 @@
+.offers{
+    margin-bottom: 121px;
+}
+.offers__list{
+    display: flex;
+    justify-content: space-between;
+
+}
+.offers__item{
+
+    width: calc(100% / 3-18);
+}
+
+.offers__item:last-child{
+    margin-right: 0px;
+}
