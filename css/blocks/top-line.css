@@ -4,7 +4,7 @@
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    background: #18191b url("/img/bg/lion-head-wide1.png") center top no-repeat ;
+    background: #18191b url("./img/bg/lion-head-wide1.png") center top no-repeat ;
 }
 .top-line__continer{
     display: flex;

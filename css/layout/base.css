@@ -55,7 +55,7 @@ img{
    background: #fff; 
 }
 .main-page-wrapper{
-    background: url("/img/bg/lion-header1.jpg") center top no-repeat, url("/img/bg/bottom-pic1.jpg") right bottom 307px  no-repeat ;
+    background: url("./img/bg/lion-header1.jpg") center top no-repeat, url("./img/bg/bottom-pic1.jpg") right bottom 307px  no-repeat ;
  
 }
 .container{
