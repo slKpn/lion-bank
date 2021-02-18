@@ -1,5 +1,4 @@
 .footer{
-    padding-top: 28px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +8,7 @@
     align-items: center;
     flex: 1;
 }
-.footer__col--align--right{
+.footer__col_align_right{
     justify-content: flex-end;
     align-items: flex-start;
     
@@ -20,9 +19,10 @@
 }
 .footer-container__border-line{
     border-top: 1px solid #353538;
-    padding: 20px 0;
+    padding: 45px 0px ;
  
 }
-.footer--theme--dark{
-    background: #29282D; ;
+.footer__services_pager{
+    padding: 45px 0px ;
+    background: #29282D;
 }

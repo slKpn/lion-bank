@@ -1,5 +1,4 @@
 .card{
-    width: 362px;
     min-height: 403px;
     color:#000;
     border-radius:4px;
@@ -22,7 +21,7 @@
 .card__header{
     min-height: 144px;
     margin-bottom: 34px;
-    position: relative;   
+    position: relative;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -41,8 +40,6 @@
     background: #a7a7a7;
 }
 .card__pic{
-    align-items: center;
-    justify-content: center;
     z-index: 1;
 }
 .card__content{
@@ -78,9 +75,7 @@
 .card__caption{
     color: #666666;
 }
-/*.card_caption-width-lock{
-    max-width: 120px;
-}*/
+
 .card__btn-wrapper{
   
     display: flex;

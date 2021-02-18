@@ -7,8 +7,9 @@
     display: inline-block;
 }
 .btn_style_default{
-    color:#fff;
+    color: #fff;
     background: #2B2B2B;
+  /*  margin-bottom: 11px;  */
 }
 .btn_style_default:hover{
     background: #DFB56D;
@@ -17,7 +18,7 @@
 .btn_style_common{
     color:#fff;
     background: #DFB56D;
-    
+
 }
 .btn_style_common:hover{
     background: #D3A557;

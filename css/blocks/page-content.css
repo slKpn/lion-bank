@@ -1,5 +1,8 @@
 .page-content{
-    background: #fff;
+    background: #fff; 
     color: #303030;
-    padding: 40px 0;
+    padding: 58px 0 121px 0;
+}
+.page-content__wdidth-size_XL{
+    width: 1200px;
 }

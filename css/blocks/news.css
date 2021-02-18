@@ -1,16 +1,14 @@
 .news{
-    margin-bottom: 150px;
+    margin-bottom: 145px;
 }
 .news__list{
-    margin-bottom: 45px;
+    margin-bottom: 54px;
     display: flex;
     justify-content: space-between;
 }
 .news__item{
     min-height: 390px;
-   
-    margin-right: 2%;
-    flex: 1;
+    width: calc(100% / 2 - 9px);
 }
    
 

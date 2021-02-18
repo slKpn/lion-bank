@@ -1,12 +1,12 @@
 .contacts{
     font-style: normal;
     text-align: right;
-  
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
 }
 .contacts__phone{
     font-size: 26px;
-    margin-bottom: 4px;
- 
     line-height: 1.11em;
 }
 .contacts__dropdown-title{

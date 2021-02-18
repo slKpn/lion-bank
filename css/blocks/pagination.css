@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
  }
 .pagination__list{
     display: flex;
@@ -29,13 +30,13 @@
      background: #353439;
  }
 
- .pagination__theme--light{
+ .pagination__theme_light{
     color:#000;
 }
-.pagination__theme--light .pagination__link_current .pagination__link{
+.pagination__theme_light .pagination__link_current .pagination__link{
     background: #353439;
     color:#fff;
 }
- .pagination__theme--light .pagination__link:hover{
+ .pagination__theme_light .pagination__link:hover{
      color:#fff;
  }

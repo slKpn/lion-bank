@@ -1,5 +1,5 @@
 .offers{
-    margin-bottom: 121px;
+    margin-bottom: 125px;
 }
 .offers__list{
     display: flex;
@@ -8,7 +8,7 @@
 }
 .offers__item{
 
-    width: calc(100% / 3-18);
+    width: calc(100% / 3 - 18px);
 }
 
 .offers__item:last-child{

@@ -1,5 +1,5 @@
 .abouts{
-    margin-bottom: 53px;
+    margin-bottom: 56px;
 }
 .abouts-wrapper{
     display: flex;
@@ -10,11 +10,11 @@
 
     width: 490px;
     height: 505px;
-    background: url("/img/decor/chess.jpg") center center/cover  no-repeat;
+    background: url("../../img/decor/chess.jpg") center center/cover  no-repeat;
 }
 .abouts__desc{
     background: #202123;
-    padding: 70px 163px 70px 81px;
+    padding: 70px 163px 66px 81px;
     margin-left: -137px;
     margin-top: 97px;
     display: flex;
@@ -43,4 +43,5 @@
 }
 .abouts__btn-wrapper{
     margin-top: auto;
+
 }
