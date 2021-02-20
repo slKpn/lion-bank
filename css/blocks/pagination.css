@@ -30,13 +30,13 @@
      background: #353439;
  }
 
- .pagination__theme_light{
+ .pagination_theme_light{
     color:#000;
 }
-.pagination__theme_light .pagination__link_current .pagination__link{
+.pagination_theme_light .pagination__link_current .pagination__link{
     background: #353439;
     color:#fff;
 }
- .pagination__theme_light .pagination__link:hover{
+ .pagination_theme_light .pagination__link:hover{
      color:#fff;
  }
