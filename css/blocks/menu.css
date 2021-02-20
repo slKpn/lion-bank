@@ -1,0 +1,27 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu__list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu__item{
+  
+    margin-right: 53px;
+}
+.menu__item:last-child{
+    margin-right: 0px;
+}
+.menu__item_active .menu__link{
+    color:#DFB56D;
+}
+.menu__link{
+    font-size: 14px;
+}
+.menu__link:hover{
+    color: #D3A557;
+}
