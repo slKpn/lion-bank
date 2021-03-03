@@ -1,0 +1,65 @@
+
+.page-content__width-size_XL{
+    min-width: 1200px;
+}
+.services__list{
+    margin-bottom: 85px;
+}
+.services__item{
+    margin-bottom: 45px;
+}
+.services__item:last-child{
+    margin-bottom: 0px;
+}
+.service{
+    border-radius: 4px;
+
+    display: flex;
+    padding: 40px 30px 22px 30px;
+
+    
+}
+
+.service__wrapper-img{
+    flex-shrink: 0;
+}
+.service__content{
+    padding: 0px 0px 0px 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.service__title{
+    color: #202020;
+    margin-bottom: 51px;
+ 
+}
+.service__desc-text{
+    line-height: 1.7;
+    flex: 1;
+    margin-bottom: 47px;
+}
+.service__desc-text p{
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+}
+.service__btn-wrapper{
+    margin-top: auto;
+} 
+.service__btn::before{
+    content: "подробнее";
+    color: #FFF;
+
+}  
+.service:hover{
+    background: #F5F5F5;
+    transition: background .6s ;
+}
+.service:hover .service__btn {
+    background-color:#D3A557;
+    transition: background .6s ;
+}
+.service:hover .service__btn::before{
+    content: "отправить";
+    padding: 0 0.5px;
+}

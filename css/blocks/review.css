@@ -1,0 +1,233 @@
+.reviews{
+    padding: 43px 0px 10px 0px;
+}
+.reviews__list{
+    column-count:2;
+    column-gap: 27px;
+    margin-bottom: 71px;
+}
+.reviews__item{
+    display: inline-flex;
+    margin-bottom: 17px;
+}
+.reviews__item:last-child{
+    margin-bottom: 0;
+}
+.review{
+    background: #F4F5F5;
+    border-radius: 4px;
+    padding: 50px 28px 38px 28px;
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 69%;
+    
+}
+.review__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.review__photo{
+    flex-shrink: 0;
+}
+.avatar{
+    width: 142px;
+    height: 142px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.review__userdata{
+    align-items: center;
+    padding: 0px 19px;
+}
+.review__user{
+    color:#1A1B1E;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 14px 0;
+  
+}
+.review__user:hover{
+    color: #2E77A4;
+    text-decoration: underline;
+    transition: color 0.6s;
+}
+.review__user:after{
+    content: url("../../img/icons/vk-blue1.png");
+    height: 30px;
+    padding: 0 7px;
+}
+.review__tags{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.review__teg-item{
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.review__teg-item:last-child{
+    margin-right: 0;
+    margin-bottom:0;
+}
+.tag{
+    color: #303030;
+    font-size: 13px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background: #E7E7E7;
+}
+.tag_bg_green{
+    background: #B9EAE4;
+}
+.review__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.review__title{
+    margin-bottom: 13px;
+    
+}
+.review__content-text{
+  margin-bottom: 50px;
+  flex: 1;
+}
+.review__content-text p{
+    line-height: 1.7em;
+    color: #818181;
+}
+.review__date{
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination_reviews-pages{
+    margin-bottom: 30px;
+}
+
+.separator{
+  
+    background:   #E5C288 ;
+    
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #202020;
+}
+.separator__container{
+    background:   #E5C288 url("../../img/content/phone-n-hand1.png") right 5% bottom no-repeat;
+
+    min-height: 360px;
+    
+    display: flex;
+    align-items: center;
+}
+.separator__content{
+    max-width:50%;
+    padding-right: 5%;
+}
+.separator__title{
+ 
+    line-height: 1.4;
+}
+.form-review{
+    background:#F4F5F5 ;
+}
+.form-review__title{
+    padding: 72px 0px 47px 0px ;
+    color:#202020;
+}
+.form__row{
+    display: flex;
+    margin-bottom: 26px;
+}
+.form__input{
+    flex:1;
+    margin-right: 28px;  
+    border-radius: 4px;
+    border:1px solid #b6b6b6;
+    background: #fff;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+    line-height: 1.42;
+    
+}
+.form__input:last-child{
+    margin-right: 0;
+
+}
+.form__input::placeholder{
+    color: #666666;
+}
+
+.form__input:focus{
+    border: 1px solid #E5C288;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.6s;  
+}
+.form__input_textarea{
+    height: 235px;
+    resize: none;
+}
+.form__controls{
+    display: flex;
+    margin-bottom: 17px;
+  
+}
+.form__controls-title{
+   max-width: 439px;
+   flex-shrink: 0;
+   color: #1A1B1E;
+   margin-right: 111px;
+   font-size: 18px;
+}
+.controls__item{
+    display: inline-flex;
+    margin-right: 7px;
+    margin-bottom: 10px;
+
+}
+.controls__item:last-child{
+    
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.controls__elem{
+    cursor: pointer;
+
+}
+.controls__checkbox{
+    display: none;
+    
+}
+.controls__checkbox:checked ~.controls__tag{
+    background: #B9EAE4;
+    transition: background 0.6s;
+}
+.controls__tag{
+    padding: 9px 12px;
+}
+.form__btns{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 98px;
+}
+.form__btn{
+    margin-right: 22px;
+
+}
+.form__btn:last-child{
+    margin-right: 0px;
+}
+
+

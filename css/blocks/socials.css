@@ -1,0 +1,95 @@
+.socials{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-right: 75px;
+}
+.socials__list{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+    flex-wrap: wrap;
+
+}
+.socials__item{
+    text-align: center;
+    margin-right: 3%;
+   
+}
+.socials__link{
+    display: block;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    background: url("../../img/icons/css_sprites.png") center center no-repeat;
+
+
+}
+
+.socials__link::after{
+    content: "";
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px;
+    height: 36px;
+
+    
+
+}
+
+.socials__link::before{
+    content: "";
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px;
+    height: 36px;
+    background: url("../../img/icons/css_sprites.png");
+    opacity: 0;
+    transition: opacity .6s;
+}
+
+.socials__link:hover::before{
+    opacity: 1;
+    transition: opacity .6s;
+}
+.socials__link:hover::after{
+    opacity: 0;
+    transition: opacity .6s;
+  
+}
+/*socials icons default state*/
+.socials__item_icon_telegram .socials__link{
+   background-position:  -5px -97px;
+}
+.socials__item_icon_vk .socials__link{
+    background-position:   -51px -97px;
+}
+.socials__item_icon_facebook .socials__link{
+    background-position: -5px -5px;
+}
+.socials__item_icon_instagram .socials__link{
+    background-position: -97px -51px;
+}
+
+/*socialc icons active state*/
+.socials__item_icon_telegram .socials__link::before{
+    background-position: -51px -51px;
+}
+.socials__item_icon_vk .socials__link::before{
+    background-position:  -97px -5px;
+}
+.socials__item_icon_facebook .socials__link::before{
+    background-position: -51px -5px;
+}
+.socials__item_icon_instagram .socials__link::before{
+    background-position: -5px -51px;
+}
